@@ -58,20 +58,6 @@ extern bool mcp23018_leds[];
     { KC_NO, KC_NO, ka2, ka3, ka4, ka5, ka6 }, \
     { KC_NO, KC_NO, KC_NO, kb3, kb4, kb5, kb6  } \
 }
-
-#define NO_MOD(A) A
-
-#define SYMBOLS_MOD(MOD) LAYOUT_moonlander(  \
-    MOD(KC_NO),       MOD(KC_NO),          MOD(KC_NO),          MOD(KC_NO),          MOD(KC_NO),          MOD(KC_NO),          MOD(KC_NO),          MOD(KC_NO),          MOD(KC_NO),          MOD(KC_NO),          MOD(KC_NO),          MOD(KC_NO),          MOD(KC_NO),          MOD(KC_NO), \
-    MOD(KC_NO),       MOD(KC_PLUS),        MOD(KC_TILD),        MOD(KC_LABK),        MOD(KC_RABK),        MOD(KC_NO),          MOD(KC_NO),          MOD(KC_NO),          MOD(KC_NO),          MOD(KC_LBRACKET),    MOD(KC_RBRACKET),    MOD(KC_SCOLON),      MOD(KC_MINUS),       MOD(KC_NO), \
-    MOD(KC_NO),       MOD(KC_EQUAL),       MOD(KC_DQUO),        MOD(KC_LPRN),        MOD(KC_RPRN),        MOD(KC_NO),          MOD(KC_NO),          MOD(KC_NO),          MOD(KC_NO),          MOD(KC_DOT),         MOD(KC_COMMA),       MOD(KC_COLN),        MOD(KC_UNDS),        MOD(KC_NO), \
-    MOD(KC_NO),       MOD(KC_BSLASH),      MOD(KC_QUOTE),       MOD(KC_LCBR),        MOD(KC_RCBR),        MOD(KC_NO),          MOD(KC_NO),          MOD(KC_PIPE),        MOD(KC_QUOTE),       MOD(KC_GRAVE),       MOD(KC_SLASH),       MOD(KC_NO), \
-    MOD(KC_NO),       MOD(KC_NO),          MOD(KC_NO),          MOD(KC_NO),          MOD(KC_NO),          MOD(KC_NO),          MOD(KC_NO),          MOD(KC_NO),          MOD(KC_NO),          MOD(KC_NO),          MOD(KC_NO),          MOD(KC_NO), \
-    MOD(KC_NO),       MOD(KC_NO),          MOD(KC_NO),          MOD(KC_NO),          MOD(KC_NO),          MOD(KC_NO) \
- )
-
-#define SYMBOLS SYMBOLS_MOD(NO_MOD)
-
 // clang-format on
 
 enum planck_ez_keycodes {
